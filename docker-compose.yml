@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   taniworks-website:
-    image: your-dockerhub-username/taniworks-website:latest
+    image: gudianjun/taniworks-website:latest
     container_name: taniworks-website
     restart: unless-stopped
     ports:

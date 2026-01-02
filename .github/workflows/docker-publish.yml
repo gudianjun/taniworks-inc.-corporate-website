@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKER_IMAGE: your-dockerhub-username/taniworks-website
+  DOCKER_IMAGE: gudianjun/taniworks-website
   DOCKER_PLATFORMS: linux/amd64,linux/arm64
 
 jobs:
