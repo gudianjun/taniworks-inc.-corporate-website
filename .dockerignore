@@ -46,3 +46,17 @@ docker-compose.yml
 coverage
 *.test.ts
 *.spec.ts
+
+# Python
+backend/__pycache__
+backend/**/__pycache__
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+*.py[cod]
+*$py.class
+
+# 数据库文件（不包含在镜像中）
+data
+backend/data/*.db
+backend/data/*.db-journal

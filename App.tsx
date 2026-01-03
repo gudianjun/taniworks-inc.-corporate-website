@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import CompanyInfo from './components/CompanyInfo';
+import CompanyHistory from './components/CompanyHistory';
 import PublicNotice from './components/PublicNotice';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
@@ -29,7 +30,10 @@ const App: React.FC = () => {
         <section id="company" className="py-20 bg-slate-50 scroll-mt-20">
           <CompanyInfo t={t.company} />
         </section>
-        <section id="notice" className="py-20 bg-white scroll-mt-20">
+        <section id="history" className="py-20 bg-white scroll-mt-20">
+          <CompanyHistory t={t.history} lang={lang} />
+        </section>
+        <section id="notice" className="py-20 bg-slate-50 scroll-mt-20">
           <PublicNotice t={t.notice} />
         </section>
         <section id="contact" className="py-20 bg-slate-50 scroll-mt-20">

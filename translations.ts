@@ -3,7 +3,7 @@ export type Language = 'jp' | 'en' | 'cn';
 
 export const translations = {
   jp: {
-    nav: { home: 'ホーム', service: '事業内容', company: '会社概要', notice: '電子公告', contact: 'お問い合わせ' },
+    nav: { home: 'ホーム', service: '事業内容', company: '会社概要', history: '沿革', notice: '電子公告', contact: 'お問い合わせ' },
     hero: {
       tag: 'Tech & Value Solutions',
       title1: 'テクノロジーの力で、',
@@ -50,6 +50,10 @@ export const translations = {
       ],
       bank_val: '（準備中）'
     },
+    history: {
+      title: '沿革',
+      error: 'データの読み込みに失敗しました'
+    },
     notice: {
       title: '電子公告',
       desc: '会社法に基づく決算公告およびその他の公告事項を掲載いたします。',
@@ -74,7 +78,7 @@ export const translations = {
     }
   },
   en: {
-    nav: { home: 'Home', service: 'Services', company: 'Company', notice: 'Notice', contact: 'Contact' },
+    nav: { home: 'Home', service: 'Services', company: 'Company', history: 'History', notice: 'Notice', contact: 'Contact' },
     hero: {
       tag: 'Tech & Value Solutions',
       title1: 'Empowering Business',
@@ -121,6 +125,10 @@ export const translations = {
       ],
       bank_val: 'Preparing'
     },
+    history: {
+      title: 'Company History',
+      error: 'Failed to load data'
+    },
     notice: {
       title: 'Electronic Public Notice',
       desc: 'Financial statements and other public notices based on the Companies Act will be posted here.',
@@ -145,7 +153,7 @@ export const translations = {
     }
   },
   cn: {
-    nav: { home: '首页', service: '事业内容', company: '公司概要', notice: '电子公告', contact: '联系我们' },
+    nav: { home: '首页', service: '事业内容', company: '公司概要', history: '发展历程', notice: '电子公告', contact: '联系我们' },
     hero: {
       tag: '技术与价值解决方案',
       title1: '以科技之力，',
@@ -191,6 +199,10 @@ export const translations = {
         '有价证券的运作及投资'
       ],
       bank_val: '（准备中）'
+    },
+    history: {
+      title: '发展历程',
+      error: '数据加载失败'
     },
     notice: {
       title: '电子公告',
