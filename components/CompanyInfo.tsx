@@ -10,7 +10,7 @@ const CompanyInfo: React.FC<{ t: any }> = ({ t }) => {
 
   const profileItems = [
     { label: t.items.name, value: 'TaniWorks株式会社 (TaniWorks Inc.)' },
-    { label: t.items.rep: value: <img src={images.name} alt="Representative" className="h-6 object-contain" /> },
+    { label: t.items.rep, value: <img src={images.name} alt="Representative" className="h-6 object-contain" /> },
     { label: t.items.loc, value: <div className="flex items-center">〒158-0082&nbsp;<img src={images.address} alt="Address" className="h-6 object-contain" /></div> },
     { label: t.items.est, value: '2026.01' },
     { label: t.items.cap, value: '5,000,000 JPY' },

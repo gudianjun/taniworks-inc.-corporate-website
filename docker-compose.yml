@@ -7,8 +7,6 @@ services:
     restart: unless-stopped
     ports:
       - "80:80"
-      # 如果需要 HTTPS，可以使用:
-      # - "443:443"
     environment:
       - TZ=Asia/Tokyo
     healthcheck:
@@ -17,12 +15,3 @@ services:
       timeout: 3s
       start_period: 5s
       retries: 3
-    labels:
-      - "com.taniworks.description=TaniWorks Corporate Website"
-      - "com.taniworks.version=1.0"
-    networks:
-      - taniworks-network
-
-networks:
-  taniworks-network:
-    driver: bridge
