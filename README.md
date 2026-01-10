@@ -74,6 +74,11 @@ docker-compose up -d
 docker-compose ps
 ```
 
+**端口配置:**
+- 容器内部端口: 80 (Nginx)
+- 宿主机映射端口: 8011
+- 通过宿主机 Nginx 反向代理到域名访问
+
 ### 更新部署
 
 ```bash

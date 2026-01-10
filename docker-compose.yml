@@ -6,7 +6,7 @@ services:
     container_name: taniworks-website
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "8011:80"
     volumes:
       - ./data:/app/data
     environment:
