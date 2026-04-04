@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Language } from '../translations';
+import logoUrl from '../res/taniworks-logo.svg';
 
 interface NavbarProps {
   lang: Language;
@@ -57,11 +58,11 @@ const Navbar: React.FC<NavbarProps> = ({ lang, setLang, t }) => {
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <button 
+            <button
               onClick={(e) => scrollToSection(e, 'home')}
-              className="text-2xl font-bold tracking-tight text-blue-900 focus:outline-none"
+              className="focus:outline-none"
             >
-              TaniWorks<span className="text-blue-600">.</span>
+              <img src={logoUrl} alt="TaniWorks" className="h-9 w-auto" />
             </button>
             <div className="hidden sm:flex items-center space-x-1 border-l border-slate-200 pl-4">
               <LangButton l="jp" label="JP" />

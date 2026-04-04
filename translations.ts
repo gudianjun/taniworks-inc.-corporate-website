@@ -8,7 +8,7 @@ export const translations = {
       tag: 'Tech & Value Solutions',
       title1: 'テクノロジーの力で、',
       title2: '確かな価値を創造する。',
-      sub: 'C#/.NETを中心とした高度なソフトウェア開発から、レガシーシステムの現代化まで。確かな技術力で、お客様のビジネス成長を加速させます。',
+      sub: 'ソフトウェア開発からAI導入支援・Webシステム開発・業務効率化コンサルティングまで。確かな技術力で、お客様のビジネス成長を加速させます。',
       btn1: '事業内容を見る',
       btn2: 'お問い合わせ'
     },
@@ -16,16 +16,16 @@ export const translations = {
       title: '事業内容',
       sub: '専門性の高い技術力でお客様の課題を解決し、持続可能な成長を支援します。',
       s1: {
-        title: 'システム開発・モダン化支援',
-        desc: 'C#/.NETエコシステムを基盤とした業務システムの設計・開発。特に、旧言語で構築されたレガシーシステムから最新の.NET環境へのリプレース・移植において、高品質なソリューションを提供します。'
+        title: 'ソフトウェア開発・AI導入支援',
+        desc: 'C#、Python、Webを活用した業務システムの設計・開発。AI技術を活用した業務改善（自動化・データ分析等）や、レガシーシステムの現代化まで、幅広い技術力でお客様の課題を解決します。'
       },
       s2: {
-        title: 'IT技術コンサルティング',
-        desc: 'DX推進や業務効率化のためのIT戦略を策定。金融ITの知見を活かした堅牢なシステム設計や、最新技術の導入支援を行い、ビジネスのデジタル化をトータルでサポートします。'
+        title: 'Webシステム開発',
+        desc: 'Webアプリケーションの企画・設計・開発を一貫して提供。既存システムの改修・最適化にも対応し、お客様のビジネスに合わせた柔軟なWebソリューションを構築します。'
       },
       s3: {
-        title: '業務支援・管理ソリューション',
-        desc: '自社資産の効率的な運用・管理を通じて得たノウハウを活かし、不動産管理や経営効率化に関するアドバイザリー業務を行います。安定した基盤構築を支援します。'
+        title: '業務効率化コンサルティング',
+        desc: 'DX推進・業務効率化のためのIT戦略を策定。中小企業のデジタル化・業務自動化を支援し、経営コンサルティングや不動産管理・資産運用に関するアドバイザリー業務も行います。'
       }
     },
     company: {
@@ -41,12 +41,10 @@ export const translations = {
         bank: '取引銀行'
       },
       biz_list: [
-        'コンピュータソフトウェアの企画、開発、販売',
-        '旧システムからC#/.NETへのリプレース・移植支援',
-        'ITコンサルティング及び技術支援',
-        '経営コンサルティング業務',
-        '不動産の管理及び運用',
-        '有価証券の運用及び投資'
+        '業務システムの設計・開発（C#、Python、Web）',
+        'AI技術を活用した業務改善（自動化、データ分析等）',
+        'Webアプリケーション開発',
+        '既存システムの改修・最適化'
       ],
       bank_val: '（準備中）'
     },
@@ -73,7 +71,7 @@ export const translations = {
       back: '新しく問い合わせる'
     },
     footer: {
-      copy: '© 2026 TaniWorks Inc. All Rights Reserved.',
+      copy: '© 2026 TaniWorks Co., Ltd. All Rights Reserved.',
       privacy: 'プライバシーポリシー'
     }
   },
@@ -83,7 +81,7 @@ export const translations = {
       tag: 'Tech & Value Solutions',
       title1: 'Empowering Business',
       title2: 'with Technology.',
-      sub: 'From advanced C#/.NET development to legacy system modernization. We accelerate your growth with reliable engineering.',
+      sub: 'From software development and AI integration to web systems and business efficiency consulting. We accelerate your growth with reliable engineering.',
       btn1: 'Our Services',
       btn2: 'Contact Us'
     },
@@ -91,16 +89,16 @@ export const translations = {
       title: 'Our Services',
       sub: 'Solving complex challenges with high-level expertise to support sustainable growth.',
       s1: {
-        title: 'System Development & Modernization',
-        desc: 'Design and development based on the C#/.NET ecosystem. We specialize in porting and replacing legacy systems with modern .NET environments, delivering high-quality, scalable solutions.'
+        title: 'Software Development & AI Integration',
+        desc: 'System design and development using C#, Python, and Web technologies. We provide AI-powered business improvement (automation, data analysis) and legacy system modernization to solve your challenges.'
       },
       s2: {
-        title: 'IT Technical Consulting',
-        desc: 'Developing IT strategies for DX and efficiency. We provide total support for business digitalization, leveraging financial IT knowledge for robust system design and technical implementation.'
+        title: 'Web System Development',
+        desc: 'End-to-end planning, design, and development of web applications. We also handle existing system renovation and optimization, delivering flexible web solutions tailored to your business needs.'
       },
       s3: {
-        title: 'Business & Management Solutions',
-        desc: 'Providing advisory services for real estate management and operational efficiency, utilizing our internal expertise in asset administration and stable infrastructure building.'
+        title: 'Business Efficiency Consulting',
+        desc: 'Developing IT strategies for DX and business efficiency. We support SME digitalization and automation, and also provide management consulting, real estate management, and asset administration advisory.'
       }
     },
     company: {
@@ -116,12 +114,10 @@ export const translations = {
         bank: 'Bank'
       },
       biz_list: [
-        'Planning, development, and sales of computer software',
-        'Modernization and migration of legacy systems to C#/.NET',
-        'IT consulting and technical support',
-        'Management consulting services',
-        'Real estate management and administration',
-        'Asset management and investment'
+        'Business system design and development (C#, Python, Web)',
+        'Business improvement using AI technology (automation, data analysis, etc.)',
+        'Web application development',
+        'Modification and optimization of existing systems'
       ],
       bank_val: 'Preparing'
     },
@@ -148,7 +144,7 @@ export const translations = {
       back: 'New Inquiry'
     },
     footer: {
-      copy: '© 2026 TaniWorks Inc. All Rights Reserved.',
+      copy: '© 2026 TaniWorks Co., Ltd. All Rights Reserved.',
       privacy: 'Privacy Policy'
     }
   },
@@ -158,7 +154,7 @@ export const translations = {
       tag: '技术与价值解决方案',
       title1: '以科技之力，',
       title2: '创造卓越价值。',
-      sub: '专注于 C#/.NET 高端软件开发与旧系统现代化迁移。凭借扎实的技术实力，为客户的业务增长保驾护航。',
+      sub: '涵盖软件开发、AI导入支持、Web系统开发及业务效率化咨询。凭借扎实的技术实力，为客户的业务增长保驾护航。',
       btn1: '查看事业内容',
       btn2: '联系我们'
     },
@@ -166,16 +162,16 @@ export const translations = {
       title: '事业内容',
       sub: '以专业技术解决客户难题，支持业务的可持续增长。',
       s1: {
-        title: '系统开发与现代化支持',
-        desc: '基于 C#/.NET 生态系统的业务系统设计与开发。特别是针对旧语言构建的传统系统（Legacy System），提供向最新 .NET 环境的移植与升级的高质量解决方案。'
+        title: '软件开发与AI导入支持',
+        desc: '基于 C#、Python、Web 技术的业务系统设计与开发。运用 AI 技术实现业务改善（自动化、数据分析等），同时提供传统系统现代化迁移的高质量解决方案。'
       },
       s2: {
-        title: 'IT 技术咨询',
-        desc: '制定数字化转型（DX）与效率提升策略。结合金融 IT 经验，提供稳健的系统架构设计及新技术导入支持，全方位助力业务数字化。'
+        title: 'Web系统开发',
+        desc: '提供 Web 应用程序的策划、设计及开发一体化服务。同时承接既有系统的改造与优化，为客户构建灵活的 Web 解决方案。'
       },
       s3: {
-        title: '业务支持与管理方案',
-        desc: '利用自有资产高效运作与管理中积累的经验，提供不动产管理及经营效率化方面的咨询服务，协助构建稳定的业务基盘。'
+        title: '业务效率化咨询',
+        desc: '制定数字化转型（DX）与效率提升策略，支持中小企业数字化与业务自动化。同时提供经营咨询、不动产管理及资产运用等方面的顾问服务。'
       }
     },
     company: {
@@ -191,12 +187,10 @@ export const translations = {
         bank: '开户银行'
       },
       biz_list: [
-        '计算机软件的策划、开发与销售',
-        '旧系统向 C#/.NET 的迁移与升级支持',
-        'IT 咨询及技术支持',
-        '经营咨询业务',
-        '不动产的管理及运作',
-        '有价证券的运作及投资'
+        '业务系统的设计与开发（C#、Python、Web）',
+        '运用AI技术实现业务改善（自动化、数据分析等）',
+        'Web应用程序开发',
+        '既有系统的改修与最优化'
       ],
       bank_val: '（准备中）'
     },
@@ -223,7 +217,7 @@ export const translations = {
       back: '重新咨询'
     },
     footer: {
-      copy: '© 2026 TaniWorks Inc. All Rights Reserved.',
+      copy: '© 2026 TaniWorks Co., Ltd. All Rights Reserved.',
       privacy: '隐私政策'
     }
   }

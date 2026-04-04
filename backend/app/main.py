@@ -33,24 +33,24 @@ async def startup_event():
             # Insert initial sample data
             initial_data = [
                 {
-                    "date": "2026年1月",
+                    "date": "2026年3月",
                     "event_jp": "設立",
                     "event_en": "Established",
                     "event_cn": "成立",
                     "order": 1
                 },
                 {
-                    "date": "2026年2月",
-                    "event_jp": "C#/.NET開発サービス開始",
-                    "event_en": "Started C#/.NET Development Services",
-                    "event_cn": "开始C#/.NET开发服务",
+                    "date": "2026年3月",
+                    "event_jp": "ソフトウェア開発・AI導入支援サービス開始",
+                    "event_en": "Started Software Development & AI Integration Services",
+                    "event_cn": "开始软件开发及AI导入支援服务",
                     "order": 2
                 },
                 {
                     "date": "2026年3月",
-                    "event_jp": "レガシーシステム現代化コンサルティング開始",
-                    "event_en": "Started Legacy System Modernization Consulting",
-                    "event_cn": "开始传统系统现代化咨询服务",
+                    "event_jp": "Webシステム開発・業務効率化コンサルティング開始",
+                    "event_en": "Started Web System Development & Business Efficiency Consulting",
+                    "event_cn": "开始Web系统开发及业务效率化咨询服务",
                     "order": 3
                 }
             ]
