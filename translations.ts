@@ -3,7 +3,7 @@ export type Language = 'jp' | 'en' | 'cn';
 
 export const translations = {
   jp: {
-    nav: { home: 'ホーム', service: '事業内容', company: '会社概要', history: '沿革', notice: '電子公告', contact: 'お問い合わせ' },
+    nav: { home: 'ホーム', service: '事業内容', products: 'プロダクト', company: '会社概要', history: '沿革', notice: '電子公告', contact: 'お問い合わせ' },
     hero: {
       tag: 'Tech & Value Solutions',
       title1: 'テクノロジーの力で、',
@@ -11,6 +11,19 @@ export const translations = {
       sub: 'ソフトウェア開発からAI導入支援・Webシステム開発・業務効率化コンサルティングまで。確かな技術力で、お客様のビジネス成長を加速させます。',
       btn1: '事業内容を見る',
       btn2: 'お問い合わせ'
+    },
+    products: {
+      title: 'プロダクト',
+      sub: '私たちが開発・運営するWebアプリケーションをご紹介します。',
+      status_live: 'サービス中',
+      status_soon: 'Coming Soon',
+      open_app: 'アプリを開く',
+      more_coming: '新サービスを準備中…',
+      zipurl: {
+        tagline: '長いURLをスマートに短縮',
+        desc: 'URLを短く変換し、シンプルなリンクで共有できる無料のURL短縮サービス。カスタムスラッグ対応で、ビジネスにも個人にも最適です。',
+        category: 'ユーティリティ'
+      }
     },
     services: {
       title: '事業内容',
@@ -76,7 +89,7 @@ export const translations = {
     }
   },
   en: {
-    nav: { home: 'Home', service: 'Services', company: 'Company', history: 'History', notice: 'Notice', contact: 'Contact' },
+    nav: { home: 'Home', service: 'Services', products: 'Products', company: 'Company', history: 'History', notice: 'Notice', contact: 'Contact' },
     hero: {
       tag: 'Tech & Value Solutions',
       title1: 'Empowering Business',
@@ -84,6 +97,19 @@ export const translations = {
       sub: 'From software development and AI integration to web systems and business efficiency consulting. We accelerate your growth with reliable engineering.',
       btn1: 'Our Services',
       btn2: 'Contact Us'
+    },
+    products: {
+      title: 'Our Products',
+      sub: 'Web applications developed and operated by TaniWorks.',
+      status_live: 'Live',
+      status_soon: 'Coming Soon',
+      open_app: 'Open App',
+      more_coming: 'More products coming soon…',
+      zipurl: {
+        tagline: 'Shorten long URLs instantly',
+        desc: 'A free URL shortener that converts long links into clean, shareable short URLs. Supports custom slugs — perfect for business and personal use.',
+        category: 'Utility'
+      }
     },
     services: {
       title: 'Our Services',
@@ -149,7 +175,7 @@ export const translations = {
     }
   },
   cn: {
-    nav: { home: '首页', service: '事业内容', company: '公司概要', history: '发展历程', notice: '电子公告', contact: '联系我们' },
+    nav: { home: '首页', service: '事业内容', products: '产品', company: '公司概要', history: '发展历程', notice: '电子公告', contact: '联系我们' },
     hero: {
       tag: '技术与价值解决方案',
       title1: '以科技之力，',
@@ -157,6 +183,19 @@ export const translations = {
       sub: '涵盖软件开发、AI导入支持、Web系统开发及业务效率化咨询。凭借扎实的技术实力，为客户的业务增长保驾护航。',
       btn1: '查看事业内容',
       btn2: '联系我们'
+    },
+    products: {
+      title: '产品',
+      sub: '介绍由 TaniWorks 开发并运营的 Web 应用产品。',
+      status_live: '上线中',
+      status_soon: '即将上线',
+      open_app: '打开应用',
+      more_coming: '更多产品即将推出…',
+      zipurl: {
+        tagline: '智能缩短长链接',
+        desc: '免费的短链接生成服务，将长网址转换为简洁易分享的短链接。支持自定义短码，适合企业和个人使用。',
+        category: '实用工具'
+      }
     },
     services: {
       title: '事业内容',

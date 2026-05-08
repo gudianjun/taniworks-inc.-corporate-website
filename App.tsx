@@ -3,6 +3,7 @@ import React, { useState, useMemo } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Products from './components/Products';
 import CompanyInfo from './components/CompanyInfo';
 import CompanyHistory from './components/CompanyHistory';
 import PublicNotice from './components/PublicNotice';
@@ -26,6 +27,9 @@ const App: React.FC = () => {
         </section>
         <section id="service" className="py-20 bg-white scroll-mt-20">
           <Services t={t.services} />
+        </section>
+        <section id="products" className="py-20 bg-slate-50 scroll-mt-20">
+          <Products t={t.products} />
         </section>
         <section id="company" className="py-20 bg-slate-50 scroll-mt-20">
           <CompanyInfo t={t.company} />
