@@ -23,6 +23,11 @@ export const translations = {
         tagline: '長いURLをスマートに短縮',
         desc: 'URLを短く変換し、シンプルなリンクで共有できる無料のURL短縮サービス。カスタムスラッグ対応で、ビジネスにも個人にも最適です。',
         category: 'ユーティリティ'
+      },
+      tuangou: {
+        tagline: 'みんなでお得にまとめ買い',
+        desc: 'グループ購買プラットフォームのデモアプリ。複数ユーザーが共同購入することで、割引価格での購入を実現するECサービスです。',
+        category: 'Eコマース'
       }
     },
     services: {
@@ -109,6 +114,11 @@ export const translations = {
         tagline: 'Shorten long URLs instantly',
         desc: 'A free URL shortener that converts long links into clean, shareable short URLs. Supports custom slugs — perfect for business and personal use.',
         category: 'Utility'
+      },
+      tuangou: {
+        tagline: 'Buy together, save together',
+        desc: 'A group buying platform demo app. Multiple users join a purchase to unlock discounted pricing — a collaborative e-commerce experience.',
+        category: 'E-Commerce'
       }
     },
     services: {
@@ -195,6 +205,11 @@ export const translations = {
         tagline: '智能缩短长链接',
         desc: '免费的短链接生成服务，将长网址转换为简洁易分享的短链接。支持自定义短码，适合企业和个人使用。',
         category: '实用工具'
+      },
+      tuangou: {
+        tagline: '一起买，更划算',
+        desc: '团购平台 Demo 应用。多人拼团共同购买，解锁折扣价格，体验协作式电商购物新方式。',
+        category: '电子商务'
       }
     },
     services: {
