@@ -18,6 +18,10 @@ const App: React.FC = () => {
 
   const t = useMemo(() => translations[lang], [lang]);
 
+  React.useEffect(() => {
+    document.title = t.pageTitle;
+  }, [t.pageTitle]);
+
   return (
     <div className="min-h-screen flex flex-col antialiased">
       <Navbar lang={lang} setLang={setLang} t={t.nav} />

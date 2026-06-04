@@ -3,6 +3,7 @@ export type Language = 'jp' | 'en' | 'cn';
 
 export const translations = {
   jp: {
+    pageTitle: 'TaniWorks株式会社 | テクノロジーで価値を創造する',
     nav: { home: 'ホーム', service: '事業内容', products: 'プロダクト', company: '会社概要', history: '沿革', notice: '電子公告', contact: 'お問い合わせ' },
     hero: {
       tag: 'Tech & Value Solutions',
@@ -94,6 +95,7 @@ export const translations = {
     }
   },
   en: {
+    pageTitle: 'TaniWorks Inc. | Tech & Value Solutions',
     nav: { home: 'Home', service: 'Services', products: 'Products', company: 'Company', history: 'History', notice: 'Notice', contact: 'Contact' },
     hero: {
       tag: 'Tech & Value Solutions',
@@ -185,6 +187,7 @@ export const translations = {
     }
   },
   cn: {
+    pageTitle: 'TaniWorks株式会社 | 以科技创造卓越价值',
     nav: { home: '首页', service: '事业内容', products: '产品', company: '公司概要', history: '发展历程', notice: '电子公告', contact: '联系我们' },
     hero: {
       tag: '技术与价值解决方案',
