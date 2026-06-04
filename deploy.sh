@@ -1,16 +1,25 @@
 #!/bin/bash
 set -e
 
-COMPOSE_FILE="$(dirname "$0")/docker-compose.yml"
+cd "$(dirname "$0")"
+
+# 兼容 docker compose (v2) 和 docker-compose (v1)
+if docker compose version &>/dev/null; then
+  DC="docker compose"
+else
+  DC="docker-compose"
+fi
+
+echo "==> Using: $DC"
 
 echo "==> Pulling latest image..."
-docker compose -f "$COMPOSE_FILE" pull
+$DC pull
 
 echo "==> Stopping and removing existing container..."
-docker compose -f "$COMPOSE_FILE" down --remove-orphans
+$DC down --remove-orphans
 
 echo "==> Starting container..."
-docker compose -f "$COMPOSE_FILE" up -d
+$DC up -d
 
 echo "==> Waiting for health check..."
 sleep 5
@@ -18,5 +27,5 @@ sleep 5
 STATUS=$(docker inspect --format='{{.State.Health.Status}}' taniworks-website 2>/dev/null || echo "unknown")
 echo "==> Container status: $STATUS"
 
-docker compose -f "$COMPOSE_FILE" ps
+$DC ps
 echo "==> Done. Site running at http://localhost:8011"
