@@ -60,7 +60,7 @@ export const translations = {
         'Webアプリケーション開発',
         '既存システムの改修・最適化'
       ],
-      bank_val: '（準備中）'
+      bank_val: 'GMOあおぞらネット銀行'
     },
     history: {
       title: '沿革',
@@ -147,7 +147,7 @@ export const translations = {
         'Web application development',
         'Modification and optimization of existing systems'
       ],
-      bank_val: 'Preparing'
+      bank_val: 'GMO Aozora Net Bank'
     },
     history: {
       title: 'Company History',
@@ -234,7 +234,7 @@ export const translations = {
         'Web应用程序开发',
         '既有系统的改修与最优化'
       ],
-      bank_val: '（准备中）'
+      bank_val: 'GMO青空网络银行'
     },
     history: {
       title: '发展历程',
