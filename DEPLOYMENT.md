@@ -353,10 +353,14 @@ docker-compose up -d
 
 
 --label-enable 参数，用于只跟踪具有标签的镜像，好自动更新。
+# 注意：containrrr/watchtower 已停止维护（仓库已于 2025-12-17 归档），
+# 其镜像内置的 docker client 版本过旧，无法兼容较新的 Docker 引擎
+# （会报 "client version 1.25 is too old" 错误），请使用社区维护的
+# nickfedor/watchtower 替代镜像。
 docker run -d \
   --name watchtower \
   --restart always \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  containrrr/watchtower \
+  nickfedor/watchtower \
   --label-enable \
   --interval 300
