@@ -4,9 +4,9 @@ services:
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
     container_name: taniworks-website
-    restart: unless-stopped
+    restart: always
     ports:
-      - "8011:80"
+      - "127.0.0.1:8011:80"   # 只绑定宿主机 loopback，公网无法直接访问，仅由宿主机 nginx 反代
     volumes:
       - ./data:/app/data
     environment:
