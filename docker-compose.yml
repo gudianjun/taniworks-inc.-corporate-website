@@ -1,8 +1,8 @@
-version: '3.8'
-
 services:
   taniworks-website:
     image: gudianjun/taniworks-website:latest
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
     container_name: taniworks-website
     restart: unless-stopped
     ports:

@@ -337,7 +337,7 @@ services:
 
 ```bash
 # 查看可用的镜像标签
-docker images your-username/taniworks-website
+sudo docker images gudianjun/taniworks-website
 
 # 修改 docker-compose.yml 指定旧版本
 # image: your-username/taniworks-website:v1.0.0
@@ -349,3 +349,14 @@ docker-compose up -d
 ---
 
 **🎉 完成！现在你只需要推送代码，一切都会自动完成！**
+
+
+
+--label-enable 参数，用于只跟踪具有标签的镜像，好自动更新。
+docker run -d \
+  --name watchtower \
+  --restart always \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  containrrr/watchtower \
+  --label-enable \
+  --interval 300
