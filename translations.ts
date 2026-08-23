@@ -24,6 +24,11 @@ export const translations = {
         tagline: '長いURLをスマートに短縮',
         desc: 'URLを短く変換し、シンプルなリンクで共有できる無料のURL短縮サービス。カスタムスラッグ対応で、ビジネスにも個人にも最適です。',
         category: 'ユーティリティ'
+      },
+      daily: {
+        tagline: '米国市場の値動きを毎日配信',
+        desc: '米国株式市場の値動きやトレンドを毎日まとめてお届けするデイリー投資ブリーフ。主要指数・注目銘柄・マクロ要因をコンパクトに解説します。投資判断の参考情報であり、売買を推奨するものではありません。',
+        category: 'マーケット情報'
       }
     },
     services: {
@@ -111,6 +116,11 @@ export const translations = {
         tagline: 'Shorten long URLs instantly',
         desc: 'A free URL shortener that converts long links into clean, shareable short URLs. Supports custom slugs — perfect for business and personal use.',
         category: 'Utility'
+      },
+      daily: {
+        tagline: 'Daily wrap-up of U.S. market moves',
+        desc: 'A daily investment brief summarizing U.S. stock market trends, key indices, notable stocks, and macro factors in a concise digest. Reference information only — not investment advice.',
+        category: 'Market Insights'
       }
     },
     services: {
@@ -198,6 +208,11 @@ export const translations = {
         tagline: '智能缩短长链接',
         desc: '免费的短链接生成服务，将长网址转换为简洁易分享的短链接。支持自定义短码，适合企业和个人使用。',
         category: '实用工具'
+      },
+      daily: {
+        tagline: '每日汇总美股市场动态',
+        desc: '每日汇总美国股市行情与走势的投资简报，用简洁的篇幅解读主要指数、重点个股与宏观因素。仅供参考信息，不构成投资建议。',
+        category: '市场资讯'
       }
     },
     services: {

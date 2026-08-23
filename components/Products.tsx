@@ -28,6 +28,12 @@ const ZipUrlIcon = () => (
   </svg>
 );
 
+const DailyIcon = () => (
+  <svg className="w-9 h-9 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 17l6-6 4 4 8-8m0 0h-5m5 0v5" />
+  </svg>
+);
+
 
 const Products: React.FC<ProductsProps> = ({ t }) => {
   const products: Product[] = [
@@ -40,6 +46,16 @@ const Products: React.FC<ProductsProps> = ({ t }) => {
       status: 'live',
       category: t.zipurl.category,
       icon: <ZipUrlIcon />,
+    },
+    {
+      id: 'daily',
+      name: 'Daily Investment Brief',
+      tagline: t.daily.tagline,
+      description: t.daily.desc,
+      url: 'https://daily.taniworks.jp/',
+      status: 'live',
+      category: t.daily.category,
+      icon: <DailyIcon />,
     },
 
   ];
