@@ -34,6 +34,11 @@ const DailyIcon = () => (
   </svg>
 );
 
+const TaniLinksIcon = () => (
+  <svg className="w-9 h-9 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+  </svg>
+);
 
 const Products: React.FC<ProductsProps> = ({ t }) => {
   const products: Product[] = [
@@ -57,7 +62,16 @@ const Products: React.FC<ProductsProps> = ({ t }) => {
       category: t.daily.category,
       icon: <DailyIcon />,
     },
-
+    {
+      id: 'tanilinks',
+      name: 'TaniLinks',
+      tagline: t.tanilinks.tagline,
+      description: t.tanilinks.desc,
+      url: 'https://tanilinks.com/',
+      status: 'live',
+      category: t.tanilinks.category,
+      icon: <TaniLinksIcon />,
+    },
   ];
 
   return (

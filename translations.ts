@@ -25,6 +25,11 @@ export const translations = {
         desc: 'URLを短く変換し、シンプルなリンクで共有できる無料のURL短縮サービス。カスタムスラッグ対応で、ビジネスにも個人にも最適です。',
         category: 'ユーティリティ'
       },
+      tanilinks: {
+        tagline: 'タイトルとHTMLだけで独自サブドメイン公開',
+        desc: 'タイトルとHTMLを入力するだけで、独自サブドメインの静的ページをすぐに公開できるホスティングサービス。サーバー構築やドメイン取得は不要。ランディングページ、資料共有、プロトタイプの公開に最適です。',
+        category: 'ホスティング'
+      },
       daily: {
         tagline: '米国市場の値動きを毎日配信',
         desc: '米国株式市場の値動きやトレンドを毎日まとめてお届けするデイリー投資ブリーフ。主要指数・注目銘柄・マクロ要因をコンパクトに解説します。投資判断の参考情報であり、売買を推奨するものではありません。',
@@ -117,6 +122,11 @@ export const translations = {
         desc: 'A free URL shortener that converts long links into clean, shareable short URLs. Supports custom slugs — perfect for business and personal use.',
         category: 'Utility'
       },
+      tanilinks: {
+        tagline: 'Publish a static page on your own subdomain',
+        desc: 'A hosting service that turns a title and raw HTML into a live static page on its own dedicated subdomain. No servers to set up and no domain to buy — ideal for landing pages, shared documents, and quick prototypes.',
+        category: 'Hosting'
+      },
       daily: {
         tagline: 'Daily wrap-up of U.S. market moves',
         desc: 'A daily investment brief summarizing U.S. stock market trends, key indices, notable stocks, and macro factors in a concise digest. Reference information only — not investment advice.',
@@ -208,6 +218,11 @@ export const translations = {
         tagline: '智能缩短长链接',
         desc: '免费的短链接生成服务，将长网址转换为简洁易分享的短链接。支持自定义短码，适合企业和个人使用。',
         category: '实用工具'
+      },
+      tanilinks: {
+        tagline: '填标题和 HTML 即得独立二级域名',
+        desc: '只需填写标题与 HTML 内容，即可立即获得一个拥有独立二级域名的静态页面托管服务。无需搭建服务器、无需购买域名，适合发布落地页、共享资料与快速原型。',
+        category: '托管服务'
       },
       daily: {
         tagline: '每日汇总美股市场动态',
