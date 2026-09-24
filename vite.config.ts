@@ -9,6 +9,14 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3000,
         host: '0.0.0.0',
+        proxy: {
+          // Proxy API requests to the FastAPI backend during development,
+          // mirroring the nginx reverse proxy used in production.
+          '/api': {
+            target: 'http://127.0.0.1:8000',
+            changeOrigin: true,
+          },
+        },
       },
       plugins: [react()],
       define: {
